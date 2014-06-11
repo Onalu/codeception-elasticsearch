@@ -1,0 +1,18 @@
+{
+    "name": "namespace/hello",
+    "description": "Hello World Module",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "johndoe@example.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src"
+        }
+    }
+}
