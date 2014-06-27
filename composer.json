@@ -1,10 +1,10 @@
 {
-    "name": "namespace/hello",
-    "description": "Hello World Module",
+    "name": "gamegos/codeception-es",
+    "description": "Codeception Elasticsearch Module",
     "authors": [
         {
-            "name": "John Doe",
-            "email": "johndoe@example.com"
+            "name": "Umutcan Önal",
+            "email": "umutcan@gamegos.com"
         }
     ],
     "require": {
