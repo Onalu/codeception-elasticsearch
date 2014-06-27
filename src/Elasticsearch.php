@@ -43,7 +43,7 @@ class Elasticsearch extends Module
     public function seeClusterStatusGreen()
     {
         $response =  $this->esClient->cluster()->health();
-        $this->assertContains("green", $response["statatus"]);
+        $this->assertContains("green", $response["status"]);
     }
 
 } 
